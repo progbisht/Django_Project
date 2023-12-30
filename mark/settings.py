@@ -87,9 +87,9 @@ WSGI_APPLICATION = 'mark.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'mark_db',
-        'USER': 'root',
-        'PASSWORD': 'root',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
         'HOST': 'localhost',  # or the hostname where your MySQL server is running
         'PORT': '5432',      # or the port on which your MySQL server is listening
     }
